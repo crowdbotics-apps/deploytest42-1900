@@ -10,7 +10,8 @@ RUN apk add --no-cache --update \
   postgresql-dev \
   python3 \
   python3-dev \
-  py3-pip
+  py3-pip \
+  curl
 RUN pip3 install --no-cache-dir -q pipenv
 
 # Add our code
